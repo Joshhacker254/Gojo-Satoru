@@ -2353,7 +2353,7 @@ reply(`*Text Maker List :*\n•> glitch\n•> glow`)
 }
 }
 break
-            case 'waifu': case 'husbu': case 'neko': case 'shinobu': case 'megumin': case 'waifus': case 'nekos': case 'trap': case 'blowjob': {
+            case 'waifu': case 'husbu': case 'shinobu': case 'megumin': case 'waifus': case 'trap': case 'blowjob': {
                 reply(mess.wait)
                 GojoMdNx.sendMessage(m.chat, { image: { url: api('zenz', '/api/random/'+command, {}, 'apikey') }, caption: 'Generated Random ' + command }, { quoted: m })
             }
